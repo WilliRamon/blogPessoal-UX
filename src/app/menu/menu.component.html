@@ -6,10 +6,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto d-flex align-items-center">
         <li class="nav-item active">
-          <img src="https://github.com/WilliRamon.png" alt="Foto gitHub do desenvolvedor" width="50px" height="50px" class="img-fluid rounded-circle">
+          <img src="{{foto}}" alt="Foto do usuário" width="50px" height="50px" class="img-fluid rounded-circle">
         </li>
         <li class="nav-item pl-3">
-          <p class="m-0 font-weight-bold text-white fs-16">Nome do Usuário</p>
+          <p class="m-0 font-weight-bold text-white fs-16">Olá, {{nome}}</p>
         </li>
         <li>
             <a href="#"><i class="fa-solid fa-user-pen text-white fs-16 ml-3"></i></a>
@@ -17,7 +17,7 @@
     </ul>
     <ul class="navbar-nav ml-auto d-flex align-items-center">
         <li class="nav-item pl-3">
-            <a href="" class="mr-0 font-weight-bold text-white fs-11">Sair <i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+            <a href="" class="mr-0 font-weight-bold text-white fs-11" (click) = 'sair()'>Sair <i class="fa-solid fa-arrow-right-from-bracket"></i></a>
          </li>
     </ul>
     </div>
