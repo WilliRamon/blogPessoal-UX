@@ -1,7 +1,70 @@
+@font-face {
+    font-family: 'game';
+    src: url('fonts/GAMERA__.TTF')format('truetype');
+}
+@font-face {
+    font-family: 'mario';
+    src: url('fonts/Super Mario Bros. 2.ttf')format('opentype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 #img-bg{
-    background-image: url('https://i.imgur.com/d5bMdDJ.jpg');
+    background-image: url('https://i0.wp.com/gamelogia.com.br/wp-content/uploads/2016/11/gamer.jpg?resize=627%2C376&ssl=1   ');
     min-height: 695px;;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.body{
+    height: 100vh;
+    background-image: url('https://i.imgur.com/0WZHWo2.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main{
+    background-color: #3dc9ad70;
+    backdrop-filter: blur(20px);
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
+    border-radius: 10px;
+}
+
+h1{
+    font-family: 'mario';
+    font-weight: bold;
+    color: #1D171B;
+}
+
+p{
+    color: #1D171B;
+}
+
+label{
+    color: white;
+}
+
+hr{
+    background-color: #1D171B;
+}
+
+label, button, ::placeholder, p{
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+button{
+    background-color: #CA6773;
+    width: 50%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover{
+color: #CA6773;
 }
