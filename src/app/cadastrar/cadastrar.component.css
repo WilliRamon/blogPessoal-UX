@@ -1,7 +1,53 @@
-#img-bg{
-    background-image: url('https://i.imgur.com/w3d95jN.jpg');
-    min-height: 695px;;
-    background-position: center;
+@font-face {
+    font-family: 'mario';
+    src: url('fonts/Super Mario Bros. 2.ttf')format('opentype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.body{
+    height: 100vh;
+    background-image: url('https://i.imgur.com/yb719iW.jpg');
+    background-position: left center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.main{
+    background-image: linear-gradient(to bottom, #6f4dd48c);
+    backdrop-filter: blur(20px);
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
+    border-radius: 10px;
+}
+
+h1{
+    color: #CA6773;
+    font-weight: bold;
+    font-family: 'mario';
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+label{
+    color: #CA6773;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+button{
+    color: #1D171B;
+    font-weight: bolder;
+}
+
+.btn-cancelar{
+    background: linear-gradient(90.17deg, #CA6773 0.19%, #c73647 99.77%);
+}
+
+.btn-cadastrar{
+    background: linear-gradient(90.17deg, #3DC9AE 0.19%, #07e0b5 99.77%);
+}
+
+label, button, ::placeholder{
+    font-family: 'Ubuntu Mono', monospace;
 }
