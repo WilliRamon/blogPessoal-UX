@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'mario';
+    src: url('fonts/Super Mario Bros. 2.ttf')format('opentype');
+}
+@font-face {
+    font-family: 'pixelGame';
+    src: url('fonts/PixelGameFont.ttf')format('opentype');
+}
+@font-face {
+    font-family: 'gamer';
+    src: url('fonts/Gamer.ttf')format('opentype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 .fs-54{
     font-size: 54pt;
 }
@@ -9,4 +24,20 @@
 .img-capa{
     width: 500px;
     height: 500px;
+}
+
+.inicio{
+    background-color: #0A0B1D;
+}
+
+h1{
+    font-family: 'mario';
+    color: #CA6773;
+    text-shadow: 5px 5px 5px #3DC9AE;
+}
+
+h5{
+    color: #3DC9AE;
+    font-family: 'pixelGame';
+    font-size: 50px;
 }
