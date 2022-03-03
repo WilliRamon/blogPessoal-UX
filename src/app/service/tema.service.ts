@@ -19,7 +19,7 @@ export class TemaService {
     return this.http.get<Tema[]>('https://blogpessoalwilliramon.herokuapp.com/tema', this.token) //O mesmo token que adicionei no header
   }
 
-  postTema(tema: Tema): Observable<Tema>{
+  postTema(tema: Tema): Observable<Tema>{ //Observa minha classe de TEMA
     return this.http.post<Tema>('https://blogpessoalwilliramon.herokuapp.com/tema', tema, this.token)
   }
 }
