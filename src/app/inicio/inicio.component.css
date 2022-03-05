@@ -27,13 +27,18 @@
 }
 
 .inicio{
+    height: 100vh;
     background-color: #0A0B1D;
+    background-image: url('https://i.imgur.com/SYP9BRN.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 h1{
     font-family: 'mario';
-    color: #CA6773;
-    text-shadow: 5px 5px 5px #3DC9AE;
+    color: #F4BB42;
+    text-shadow: 5px 5px 5px #FA63C5;
 }
 
 h5{
