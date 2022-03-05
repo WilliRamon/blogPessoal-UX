@@ -27,22 +27,22 @@
 }
 
 .inicio{
-    height: 100vh;
     background-color: #0A0B1D;
-    background-image: url('https://i.imgur.com/SYP9BRN.jpg');
+    background-image: url('https://i.imgur.com/qJeP0ER.jpg');
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: contain;
 }
 
 h1{
     font-family: 'mario';
-    color: #F4BB42;
-    text-shadow: 5px 5px 5px #FA63C5;
+    color: #CA6773;
+    /* color: #F4BB42; */
+    text-shadow: 5px 5px 5px #420324;
 }
 
 h5{
-    color: #3DC9AE;
+    color: #D4C9F2;
     font-family: 'pixelGame';
     font-size: 50px;
+    font-weight: bolder;
 }
