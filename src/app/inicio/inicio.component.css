@@ -42,7 +42,7 @@ h1{
 }
 
 h5{
-    color: #D4C9F2;
+    color: white;
     font-family: 'pixelGame';
     font-size: 50px;
     font-weight: bolder;
@@ -50,8 +50,22 @@ h5{
 
 button{
     color: #1D171B;
+    font-weight: bolder;
+    background-color: white;
+    border-color: #1D171B;
+}
+
+button, a{
     font-family: 'Ubuntu Mono', monospace;
     font-weight: bolder;
-    background-color: #D4C9F2;
-    border-color: #1D171B;
+}
+
+.post{
+    color: #1D171B;;
+}
+
+.fade{
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: bolder;
+    color: #1D171B;
 }

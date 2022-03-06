@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 ul.social-network{
     list-style: none;
     padding: 0px;
@@ -25,4 +27,9 @@ ul.social-network li{
 
 .fa-linkedin-in:hover{
     color: #0072b1;
+}
+
+.footer{
+    background-image: linear-gradient(to right, #5C0031, #060E59);
+    font-family: 'Ubuntu Mono', monospace;
 }

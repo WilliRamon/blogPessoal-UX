@@ -20,8 +20,9 @@ a{
 
 .navbar{
     background-image: linear-gradient(to right, #5C0031, #060E59);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
     backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
     font-family: 'pixelGame';
     font-weight: bold;
+    color: white;
 }
