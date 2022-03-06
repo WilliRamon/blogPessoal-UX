@@ -55,7 +55,7 @@ button{
     border-color: #1D171B;
 }
 
-button, a{
+button, a, p{
     font-family: 'Ubuntu Mono', monospace;
     font-weight: bolder;
 }

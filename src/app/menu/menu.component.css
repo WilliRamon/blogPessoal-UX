@@ -22,7 +22,7 @@ a{
     background-image: linear-gradient(to right, #5C0031, #060E59);
     backdrop-filter: blur(20px);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
-    font-family: 'pixelGame';
+    font-family: 'Ubuntu Mono', monospace;
     font-weight: bold;
     color: white;
 }
