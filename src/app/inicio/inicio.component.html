@@ -41,6 +41,7 @@
       </nav>
       <div class="tab-content mt-3" id="nav-tabContent">
 
+        <!--Card Todas as Postagens-->
         <div class="tab-pane fade show active" id="todasPostagens" role="tabpanel" aria-labelledby="nav-todasPostagens-tab">
 
           <div class="card-columns">
@@ -63,7 +64,9 @@
           </div>
 
         </div>
+        <!--/Card Todas as Postagens-->
 
+        <!--Card Minhas Postagens-->
         <div class="tab-pane fade" id="minhasPostagens" role="tabpanel" aria-labelledby="nav-minhasPostagens-tab">
             
           <div class="card-columns">
@@ -76,13 +79,18 @@
                   {{item.data | date: 'dd/MM/yyyy'}} às {{item.data | date: 'HH:mm'}}
                 </small></p>
 
+                <a [routerLink]="['/postagem-edit', item.id]" class="text-info mr-3" href="">Editar</a>
+                <a [routerLink]="['/postagem-delete', item.id]" class="text-danger" href="">Apagar</a>
+
               </div>
             </div>
           
           </div>
 
         </div>
+        <!--/Card Minhas Postagens-->
 
+        <!--Card Postagens por Tema-->
         <div class="tab-pane fade" id="postagemTema" role="tabpanel" aria-labelledby="nav-postagemTema-tab">
             
           <div class="card-columns" *ngFor='let tema of listaTemas'>
@@ -104,6 +112,7 @@
           </div>
 
         </div>
+        <!--/Card Postagens por Tema-->
       </div>
 </div>
 
