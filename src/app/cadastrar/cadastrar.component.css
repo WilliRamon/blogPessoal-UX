@@ -1,15 +1,18 @@
 @font-face {
-    font-family: 'mario';
+    font-family: 'fontGame';
     src: url('fonts/Super Mario Bros. 2.ttf')format('opentype');
 }
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+
 .body{
     height: 100vh;
+    background-color: black;
     background-image: url('https://i.imgur.com/yb719iW.jpg');
-    background-position: left center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .main{
@@ -24,7 +27,7 @@
 h1{
     color: #CA6773;
     font-weight: bold;
-    font-family: 'mario';
+    font-family: 'fontGame';
     margin-top: 20px;
     margin-bottom: 30px;
 }
