@@ -1,6 +1,6 @@
-<div class="container-fluid">
+<div class="container-fluid body">
 
-    <div class="row bg-secondary">
+    <div class="row header">
 
         <div class="col-md-12 text-white">
 
@@ -8,13 +8,13 @@
                 <i class="fa-solid fa-circle-arrow-left"></i> Início
             </a>
 
-            <h1 class="fs-54 text-center">Temas</h1>
-            <h5 class="fs-18 text-center">Veja aqui todos os temas cadastrados ou cadastre um novo: </h5>
+            <h1 class="fs-54 text-center">Nome do Game</h1>
+            <h5 class="fs-18 text-center">Veja aqui todos os games cadastrados ou cadastre um novo: </h5>
 
             <div class="row d-flex justify-content-center mt-4 mb-5">
                 <div class="col-md-3">
                     <div class="form-group">
-                        <input [(ngModel)] = 'tema.descricao' type="text" class="form-control" id="descricao" placeholder="Digite a descrição do tema">
+                        <input [(ngModel)] = 'tema.descricao' type="text" class="form-control" id="descricao" placeholder="Digite o nome do Game">
                     </div>
 
                     <div class="d-flex justify-content-center">
@@ -33,7 +33,7 @@
 
     <div class="row mt-5">
         <div class="col-12">
-            <h2 class="text-center">Todos os temas</h2>
+            <h2 class="text-center">Todos os Games</h2>
         </div>
     </div>
 
@@ -44,7 +44,7 @@
                 <thead>
                   <tr>
                     <th scope="col">#</th>
-                    <th scope="col">descrição</th>
+                    <th scope="col">Descrição</th>
                     <th scope="col" class="text-right">Modificações</th>
                   </tr>
                 </thead>
