@@ -7,7 +7,7 @@
             <div class="row d-flex justify-content-center">
                 <div class="col-md-6 text-white">
                     <h1 class="fs-54">Seja bem vindo(a)!</h1>
-                    <h5 class="fs-18">Um lugar onde podemos compartilhar nossas opiniões e experiência com games!</h5>
+                    <h5 class="fs-18 h5-capa">Um lugar onde podemos compartilhar nossas opiniões e experiência com games!</h5>
                 </div>
             </div>
 
@@ -36,7 +36,7 @@
 
           <a (click)='findByIdUser()' class="post nav-link font-weight-bold" id="nav-minhasPostagens-tab " data-toggle="tab" href="#minhasPostagens" role="tab" aria-controls="nav-minhasPostagens" aria-selected="false">Minhas Postagens</a>
 
-          <a class="post nav-link font-weight-bold" id="nav-postagemTema-tab text-secondary font-weight-bold" data-toggle="tab" href="#postagemTema" role="tab" aria-controls="nav-postagemTema" aria-selected="false">Postagens por Tema</a>
+          <a class="post nav-link font-weight-bold" id="nav-postagemTema-tab text-secondary font-weight-bold" data-toggle="tab" href="#postagemTema" role="tab" aria-controls="nav-postagemTema" aria-selected="false">Postagens por Game</a>
 
         </div>
       </nav>
@@ -49,7 +49,7 @@
             <div class="card text-center" *ngFor='let item of listaPostagens'>
               <div class="card-body">
                 <h5 class="card-title m-0">{{item.titulo}}</h5>
-                <small class="text-muted">Tema: {{item.tema.descricao}}</small>
+                <small class="text-muted">Game: {{item.tema.descricao}}</small>
                 <p class="card-text mt-3">{{item.texto}}</p>
                 <p class="card-text"><small class="text-muted">
                   {{item.data | date: 'dd/MM/yyyy'}} às {{item.data | date: 'HH:mm'}}
@@ -74,7 +74,7 @@
             <div class="card text-center" *ngFor='let item of user.postagem'>
               <div class="card-body">
                 <h5 class="card-title m-0">{{item.titulo}}</h5>
-                <small class="text-muted">Tema: {{item.tema.descricao}}</small>
+                <small class="text-muted">Game: {{item.tema.descricao}}</small>
                 <p class="card-text mt-3">{{item.texto}}</p>
                 <p class="card-text"><small class="text-muted">
                   {{item.data | date: 'dd/MM/yyyy'}} às {{item.data | date: 'HH:mm'}}
@@ -91,7 +91,7 @@
         </div>
         <!--/Card Minhas Postagens-->
 
-        <!--Card Postagens por Tema-->
+        <!--Card Postagens por Tema=Game -->
         <div class="tab-pane fade" id="postagemTema" role="tabpanel" aria-labelledby="nav-postagemTema-tab">
             
           <div class="card-columns" *ngFor='let tema of listaTemas'>
@@ -114,14 +114,6 @@
 
         </div>
         <!--/Card Postagens por Tema-->
-      </div>
-
-
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">O mundo dos jogos é um lugar incrivel!</h1>
-          <p class="lead">Onde você pode fazer novas amizades, salvar princesas de castelos, </p>
-        </div>
       </div>
 </div>
 
