@@ -73,3 +73,27 @@ button, a, p{
     font-weight: bolder;
     color: #1D171B;
 }
+
+
+/*Modal*/
+
+.modal-content{
+    background-color: #60138c96;
+    backdrop-filter: blur(20px);
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
+    border-radius: 10px;
+}
+
+.close{
+    background-color: #60138c96;
+}
+
+.modal-title{
+    color: #CA6773;
+}
+
+.modal-label{
+    color: #CA6773;
+}

@@ -132,24 +132,26 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="staticBackdropLabel">Nova Postagem</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <!-- 
+            Esse é o Botão de fechar do modal.
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
-          </button>
+          </button> -->
         </div>
         <div class="modal-body">
 
           <div class="form-group">
-            <label for="titulo">Titulo</label>
+            <label for="titulo" class="modal-label">Titulo</label>
             <input [(ngModel)]='postagem.titulo'  type="text" class="form-control" id="titulo" placeholder="Digite o título">
           </div>
 
           <div class="form-group">
-            <label for="texto">Texto</label>
-            <textarea [(ngModel)]='postagem.texto'  class="form-control" name="texto" id="texto" rows="3"></textarea>
+            <label for="texto" class="modal-label">Texto</label>
+            <textarea [(ngModel)]='postagem.texto'  class="form-control" name="texto" id="texto" rows="3" placeholder="Diga a sua opinião sobre o Game!"></textarea>
           </div>
 
           <div class="form-group">
-            <label for="texto">Escolha um tema ou <a data-dismiss="modal" routerLink="/tema">cadastre um novo</a> </label>
+            <label for="texto" class="modal-label">Escolha um Game ou <a data-dismiss="modal" routerLink="/tema" class="modal-a">cadastre um novo</a> </label>
             <select name="tema" id="tema" class="form-control" [(ngModel)]='idTema' (change)='findByIdTema()'>
                 <option *ngFor='let item of listaTemas' value="{{item.id}}">{{item.descricao}}</option>
             </select>
