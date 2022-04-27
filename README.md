@@ -1,7 +1,5 @@
 <h1>Blog Pessoal</h1>
-
-<h1  align="center"><img src= "https://i.imgur.com/qYy9TPy.png" align="center" alt="logo" width="250"/></h1>
-
+<!--<h1  align="center"><img src= "https://i.imgur.com/qYy9TPy.png" align="center" alt="logo" width="250"/></h1>-->
 <h2>Descrição do Projeto</h2>
 
 Nesse meu Blog Pessoal, podemos compartilhar as experiência que tivemos nos Games.
